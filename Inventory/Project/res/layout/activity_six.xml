@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/o"
+    android:padding="15sp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_weight="0.21"
+        android:textStyle="bold"
+        android:text="Pending Orders"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="122dp"
+        android:layout_height="33dp"
+          android:layout_marginLeft="80sp"
+        android:layout_marginTop="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95sp"
+        android:layout_marginTop="20sp"
+        android:text="Show Details"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:hint="Customer Code"
+        android:textColorHint="@android:color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Item Code"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Quantity"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Order Date"
+        android:textColorHint="@android:color/black" />
+
+</LinearLayout>

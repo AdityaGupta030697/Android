@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/o"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="10sp"
+        android:text="Sales Report"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+         android:layout_marginLeft="100sp"
+        android:text="Show" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Order No"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:hint="Customer Code"
+        android:textColorHint="@android:color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="10sp"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:hint="Item Code"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:hint="Rate"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:hint="Selling Date"
+        android:textColorHint="@android:color/black" />
+
+</LinearLayout>

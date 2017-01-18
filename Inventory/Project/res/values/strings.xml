@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inventory</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_one">One</string>
+    <string name="title_activity_two">Two</string>
+    <string name="title_activity_three">Three</string>
+    <string name="title_activity_four">Four</string>
+    <string name="title_activity_five">Five</string>
+    <string name="title_activity_frame">Frame</string>
+    <string name="title_activity_front">Front</string>
+    <string name="title_activity_upg_tab">UpgTab</string>
+    <string name="title_activity_six">Six</string>
+    <string name="title_activity_seven">Seven</string>
+
+</resources>
